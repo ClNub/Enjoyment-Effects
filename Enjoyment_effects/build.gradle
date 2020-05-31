@@ -1,0 +1,18 @@
+plugins {
+    id("com.github.johnrengelman.shadow") version "5.2.0"
+}
+
+group 'yotuba.EnjoymentEffects'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven {
+        url "http://repo.nukkitx.com/main/"
+    }
+}
+
+dependencies {
+    compileOnly "cn.nukkit:nukkit:1.0-SNAPSHOT"
+    testCompileOnly "cn.nukkit:nukkit:1.0-SNAPSHOT"
+}
